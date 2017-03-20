@@ -7,7 +7,9 @@ Simple usage
 # First time.
 # get_rootfs_from_docker will generate `rootfs` directory
 ./get_rootfs_from_docker.sh
+
 ...
-# enter will chroot to proo..t.
+
+# `enter.sh` will chroot to rootfs.
 ./enter.sh
 ```
