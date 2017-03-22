@@ -2,7 +2,7 @@
 cd `dirname $0`
 set -e
 IMG=$1
-if [ -z $IMG]; then
+if [[ -z $IMG ]]; then
   IMG='docker.paddlepaddle.org/paddle:0.10.0rc2'
 fi
 echo "Set docker image to \`$IMG\`"
